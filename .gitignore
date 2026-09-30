@@ -1,32 +1,93 @@
-# Prerequisites
-*.d
+# ============================================================
+#  Directorios de build (CMake / Visual Studio / Ninja)
+# ============================================================
+build/
+build-*/
+out/
+cmake-build-*/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# ============================================================
+#  Binarios y artefactos de compilación
+# ============================================================
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.o
+*.a
 *.so
 *.dylib
-*.dll
+*.d
+*.gch
+*.pch
+*.tlog
+*.lastbuildstate
+*.recipe
+*.idb
+*.res
+*.log
 
-# Fortran module files
-*.mod
-*.smod
+# ============================================================
+#  Datos de usuario de la app (NUNCA subir)
+# ============================================================
+# Si alguna vez guardas events.db / notes.txt junto al repo
+events.db
+notes.txt
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# ============================================================
+#  IDE / Editor
+# ============================================================
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
 
-# Executables
-*.exe
-*.out
-*.app
+# ============================================================
+#  Sistema operativo
+# ============================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# ============================================================
+#  Ninja / Make intermedios
+# ============================================================
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+Makefile
+*.make
+
+# ============================================================
+#  Varios
+# ============================================================
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
