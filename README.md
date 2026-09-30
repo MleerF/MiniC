@@ -1,0 +1,2 @@
+# MiniC
+Mini calendar app
